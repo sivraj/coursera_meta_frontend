@@ -1,0 +1,43 @@
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+div.promo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+div.blog-post-intros {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+ div.blog-post-intro {
+  flex: 1;
+  margin: 0px 10px;
+ }
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
